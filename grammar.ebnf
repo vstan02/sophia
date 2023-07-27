@@ -1,0 +1,3 @@
+program ::= list*;
+list ::= '(' (value | list) ')';
+value ::= NULL | TRUE | FALSE | INT | FLOAT | STRING | ID;
